@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 import numpy as np
-from Cython.Build import cythonize
 from setuptools import find_packages
+from Cython.Build import cythonize
 
 setup(
     name="bio_embeddings_bepler",
