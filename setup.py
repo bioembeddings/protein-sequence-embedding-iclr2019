@@ -5,7 +5,7 @@ from Cython.Build import cythonize
 from setuptools import find_packages
 
 setup(
-    name="bepler",
+    name="bio_embeddings_bepler",
     packages=find_packages(),
     ext_modules=cythonize(["bepler/metrics.pyx", "bepler/alignment.pyx"]),
     include_dirs=[np.get_include()],
